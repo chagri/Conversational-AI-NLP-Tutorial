@@ -1,0 +1,19 @@
+pyyaml>=5.0.0
+dataclasses
+unittest
+
+## ML/DS
+pandas==1.1.4
+scikit-learn==0.23.2
+nltk==3.5
+datasets>=1.1.0
+
+# Deep Learning
+torch==1.7.0
+torchvision==0.8.1
+transformers==3.4.0
+rouge-score==0.0.4
+openai
+
+# Conversational AI
+rasa
