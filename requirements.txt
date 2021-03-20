@@ -8,12 +8,15 @@ scikit-learn==0.23.2
 nltk==3.5
 datasets>=1.1.0
 
-# Deep Learning
+# Deep Learning/NLP
 torch==1.7.0
 torchvision==0.8.1
 transformers==3.4.0
 rouge-score==0.0.4
 openai
+sentence-transformers
+gensim
+
 
 # Conversational AI
 rasa

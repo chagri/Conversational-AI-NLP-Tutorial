@@ -3,7 +3,7 @@ Natural Language Processing (NLP) and Conversational AI has been transforming va
 
 Despite significant progress in the past decade, most systems rely on large amounts of data annotation or require experts in the loop. With recent no code or low code tools, it is possible for developers with minimal coding or NLP/Conversational AI background to be able to build applications. 
 
-In this talk/tutorial/crash course, I will be sharing some background in Deep learning, NLP and Conversational AI. Moreover, I will cover advanced topics such as Transformers based Large Scale Language Models such as BERT and GPT-3. I will walk the audience through hands-on examples and how they can leverage such techniques in their applications.
+In this talk/tutorial/crash course, I will be starting with some background in Deep learning, NLP and Conversational AI and then gradually move towards advanced topics such as Transformers based Large Scale Language Models such as BERT and building complex Conversational Bots. I will walk the audience through hands-on examples and how they can leverage such techniques in their applications.
 
 
 
@@ -20,12 +20,13 @@ https://beta.openai.com/
 ## Examples
 
 1. NLP:
-    a. Text Classification:
-    b. Tagging and Named Entity Recognition:
-    c. Translation:
-    d. Summarization:
+    a. Text Classification: https://github.com/chagri/Conversational-AI-NLP-Tutorial/blob/master/nlp/text-classification.ipynb
+    b. Tagging and Named Entity Recognition: https://github.com/chagri/Conversational-AI-NLP-Tutorial/blob/master/nlp/tagging-nert.ipynb
+    c. Translation: https://github.com/chagri/Conversational-AI-NLP-Tutorial/blob/master/nlp/translation.ipynb
+    d. Summarization: https://github.com/chagri/Conversational-AI-NLP-Tutorial/blob/master/nlp/translation.ipynb
+
 
 2. Conversational AI:
     a. Question Answering:
-    b. Chatbot: 
-    c. Task based virtual assistant: 
+    b. Reminder Bot: https://github.com/chagri/Conversational-AI-NLP-Tutorial/tree/master/conversational_ai/rasa_examples/reminder_bot  
+    c. Task based virtual assistant: https://github.com/chagri/Conversational-AI-NLP-Tutorial/tree/master/conversational_ai/rasa_examples/end_to_end_bod
