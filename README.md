@@ -10,7 +10,7 @@ In this talk/tutorial/crash course, I will be starting with some background in D
 ## Installation and Pre-requisite
 - git clone git@github.com:chagri/Conversational-AI-NLP-Tutorial.git
 - cd Conversational-AI-NLP-Tutorial
-- pip install -r requirements.txt
+- pip install --ignore-installed -r requirements.txt
 
 If you can get OpenAI GPT-3, great! This is optional.
 https://beta.openai.com/
