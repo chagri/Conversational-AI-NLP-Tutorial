@@ -31,6 +31,7 @@ https://beta.openai.com/
     b. Reminder Bot: https://github.com/chagri/Conversational-AI-NLP-Tutorial/tree/master/conversational_ai/rasa_examples/reminderbot  
     c. Task based virtual assistant: https://github.com/chagri/Conversational-AI-NLP-Tutorial/tree/master/conversational_ai/rasa_examples/e2ebot
     d. Commands:
+        - https://rasa.com/docs/rasa/command-line-interface/
         - Train NLU only: "rasa train nlu"
         - Train NLU and Dialog Management: "rasa train"
         - "rasa interactive"	Starts an interactive learning session to create new training data by chatting to your assistant.
