@@ -8,9 +8,42 @@ In this talk/tutorial/crash course, I will be starting with some background in D
 
 
 ## Installation and Pre-requisite
-- git clone git@github.com:chagri/Conversational-AI-NLP-Tutorial.git
-- cd Conversational-AI-NLP-Tutorial
-- pip install --ignore-installed -r requirements.txt
+
+- General Instructions
+    ```
+        git clone git@github.com:chagri/Conversational-AI-NLP-Tutorial.git
+        
+        cd Conversational-AI-NLP-Tutorial
+        
+        pip install --ignore-installed -r requirements.txt
+
+        
+    ```
+
+- Additional RASA instructions for Conversational AI examples
+    ```
+        intall conda
+        conda create -n python==3.8.0
+        pip install rasa
+        pip install spacy[rasa]
+        python -m spacy download en_core_web_md
+    ```
+
+
+- Rasa commands to execute:
+    ```
+        cd conversational_ai/rasa_examples/reminderbot/
+        rasa train
+        rasa run actions
+        rasa shell
+    ```
+
+    ```
+        cd conversational_ai/rasa_examples/concertbot/
+        rasa train
+        rasa run actions
+        rasa shell
+    ```
 
 If you can get OpenAI GPT-3, great! This is optional.
 https://beta.openai.com/
@@ -34,5 +67,6 @@ https://beta.openai.com/
         - https://rasa.com/docs/rasa/command-line-interface/
         - Train NLU only: "rasa train nlu"
         - Train NLU and Dialog Management: "rasa train"
+        - "rasa run actions" to start action server
         - "rasa interactive"	Starts an interactive learning session to create new training data by chatting to your assistant.
         - "rasa shell"	Loads your trained model and lets you talk to your assistant on the command line.

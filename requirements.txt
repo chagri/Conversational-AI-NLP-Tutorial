@@ -15,7 +15,11 @@ rouge-score==0.0.4
 openai
 sentence-transformers
 gensim
+spacy[rasa]
 
 
 # Conversational AI
 rasa
+torchaudio
+librosa
+soundfile
