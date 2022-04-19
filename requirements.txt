@@ -16,6 +16,8 @@ openai
 sentence-transformers
 gensim
 spacy[rasa]
+umap
+bertopic
 
 
 # Conversational AI
