@@ -26,6 +26,7 @@ nlu:
       - Find me some good concerts
       - Show me concerts
       - search concerts
+      - find a concert
 
   - intent: search_venues
     examples: |
