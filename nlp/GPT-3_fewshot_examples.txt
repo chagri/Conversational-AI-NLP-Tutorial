@@ -1,0 +1,32 @@
+The following is a conversation with an AI assistant.  The assistant is helpful, creative, clever, and very friendly.
+Human: Hello, who are you?
+AI: I am an AI created by OpenAI. How can I help you today?
+Human: Are you happy?
+
+
+==============
+
+Human: 5x+2= 0
+AI: 5x = -2  ->  x = -2/5
+
+Human: 7x-5 = 0
+AI: 7x = 5  ->  x = 5/7
+
+Human: 2x-10 = 0
+AI: 2x = 10  ->  x = 10/2
+
+Human: 3x-9 = 0
+
+
+==============
+
+
+The following is a an example of converting text to SQL. It generates SQL output.
+
+Human: Fetch unique values of DEPARTMENT from Worker table.
+AI: Select distinct DEPARTMENT from Worker;
+
+Human: Fetch the count of employees working in the department Admin.
+AI:SELECT COUNT(*) FROM worker WHERE DEPARTMENT = 'Admin';
+
+Human: Print the first three characters of FIRST_NAME from Worker table.
